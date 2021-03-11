@@ -18,9 +18,7 @@ if(member.roles.highest.position >= message.member.roles.highest.position) retur
 data.add(`yetkili.${message.author.id}.kadin`, 1)
 data.add(`yetkili.${message.author.id}.toplam`, 1)
 let kayıtlar = data.fetch(`yetkili.${message.author.id}.toplam`)
-member.roles.add(settings.roller.kadınrol1)
-member.roles.add(settings.roller.kadınrol2)
-member.roles.add(settings.roller.kadınrol3)
+member.roles.add(settings.roller.kadınRol)
 member.roles.remove(settings.roller.kayıtsızrol)
 member.roles.remove(settings.roller.karantinarol)
 message.channel.send(new MessageEmbed()
@@ -31,7 +29,7 @@ message.react(settings.durumlar.dogru)
 
 
 client.channels.cache.get(settings.kanallar.genelchat).send(`<@${member.id}>, \`Aramıza hoş geldiniz! Rol seçim odalarından rolleriniz almayı unutmayın iyi eğlenceler.\` :tada:`).then(x => x.delete({timeout: 5000}))
-data.push(`isim.${member.id}`,{userID: member.id, role: settings.roller.kadınrol1, teyitciid: message.author.id, teyitcisim: message.author.username, Sex: 'Kadın'})}
+data.push(`isim.${member.id}`,{userID: member.id, role: settings.roller.kadınRol, teyitciid: message.author.id, teyitcisim: message.author.username, Sex: 'Kadın'})}
 
 exports.conf = {enabled: true, guildOnly: true, aliases: ["kadın", "k"]};
 exports.help = {name: 'kadın'};
