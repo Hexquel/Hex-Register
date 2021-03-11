@@ -1,0 +1,45 @@
+{
+"roller": {
+"teyitcirol": "registerci",
+"botcommand": "bot commands",
+"erkekrol1": "erkek 1",
+"erkekrol2": "erkek 2",
+"erkekrol3": "erkek 3",
+"kadınrol1": "kadın 1",
+"kadınrol2": "kadın 2",
+"kadınrol3": "kadın 3",
+"kayıtsızrol": "kayıtsız",
+"karantinarol": "karantina rol",
+"cezalırol": "cezalı rol",
+"booster": "booster",
+"ekiprol": "tag rol"
+},
+
+"kanallar": {
+"taglog": "tag log",
+"genelchat": "chat",
+"hgkanal" : "hg kanal id",
+"guildid" : "Sunucu Id",
+"invite" : "invite kanal id"
+},
+
+"durumlar": {
+    "dogru": "<a:tik:802945756754345985>",
+    "yanlis": "<a:carp:803311815441383424>"
+},
+
+"taglar": {
+    "servertag": "Hex",
+    "untag": "▪"
+}, 
+
+"renk": {
+    "hexkırmızı": "#fff619",
+    "hexmor": "#fff619",
+    "hexblue": "#fff619",
+    "hexgold": "#fff619",
+    "hexvip": "#fff619",
+    "hexmavi": "#fff619",
+    "kirmizi" : "#fff619"
+} 
+}
