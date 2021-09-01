@@ -1,1 +1,1 @@
-# Hex Efsane Register Botu 
+# Hex Register Bot
